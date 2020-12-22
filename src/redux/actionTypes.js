@@ -1,0 +1,2 @@
+export const FETCH_USERS_SUCCESS = "FETCH_USERS_SUCCESS";
+export const GET_USERS = "GET_USERS";
