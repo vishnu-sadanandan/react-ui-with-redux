@@ -1,0 +1,30 @@
+{
+    "gender": "male",
+    "name": {
+        "title": "mr",
+        "first": "riley",
+        "last": "hughes"
+    },
+    "location": {
+        "street": "5200 te atatu road",
+        "city": "hastings",
+        "state": "otago",
+        "zip": 22112
+    },
+    "email": "riley.hughes@example.com",
+    "username": "vishnu",
+    "password": "123456",
+    "salt": "OhhHhyUQ",
+    "md5": "6571db1f347d77653d452786a3cc22a1",
+    "sha1": "d638f597fa8deb0bdf1992beeac8337cb69b9422",
+    "sha256": "8070b92a490628cc3e4a75d5c6d5612b812e94ec1b85a2ee7025f36f8617eb25",
+    "registered": 1023860853,
+    "dob": 1199130845,
+    "phone": "(757)-253-5413",
+    "cell": "(020)-201-0326",
+    "picture": {
+        "large": "https://randomuser.me/api/portraits/men/85.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/85.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/85.jpg"
+    }
+}

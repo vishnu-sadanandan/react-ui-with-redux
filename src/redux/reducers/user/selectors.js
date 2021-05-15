@@ -5,5 +5,5 @@ export const getUsersList = (store) =>
 
 export const getUsersById = (store, id) =>
   getUsersList(store)
-    ? getUsersList(store)?.users?.filter((user) => user.id == id)[0]
+    ? getUsersList(store)?.users?.filter((user) => user.id === id)[0]
     : {};

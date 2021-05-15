@@ -9,8 +9,12 @@ import profile from "assets/img/faces/christian.jpg";
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
 
 import { useParams } from "react-router-dom";
-import { getUsersById, getUsersList } from "../../redux/selectors";
+import {
+  getUsersById,
+  getUsersList,
+} from "../../redux/reducers/user/selectors";
 import { useSelector } from "react-redux";
+import Header from "views/Header";
 
 const useStyles = makeStyles(styles);
 
@@ -48,6 +52,7 @@ const ProfilePage = () => {
 
   return (
     <div>
+      <Header />
       <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
       {user && (
         <div>

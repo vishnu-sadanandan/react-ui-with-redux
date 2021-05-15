@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { connect, useDispatch } from "react-redux";
-import { fetchUsersSuccess } from "../../redux/actions";
+import { fetchUsersSuccess } from "../../redux/reducers/user/actions";
 
 import UserInfo from "../UserInfo";
 

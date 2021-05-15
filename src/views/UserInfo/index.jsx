@@ -9,7 +9,6 @@ const styles = {
   cardTitle,
   cardLink,
 };
-
 const useStyles = makeStyles(styles);
 
 const UserInfo = ({ user }) => {
